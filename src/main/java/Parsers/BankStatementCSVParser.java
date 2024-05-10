@@ -27,5 +27,4 @@ public class BankStatementCSVParser implements BankStatementParser {
         }
         return bankTransactions;
     }
-    //teste
 }

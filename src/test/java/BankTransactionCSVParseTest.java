@@ -19,6 +19,5 @@ public class BankTransactionCSVParseTest {
         Assert.assertEquals(result.getDate(), bankTransactionExpectd.getDate());
         Assert.assertEquals(result.getAmount(), bankTransactionExpectd.getAmount(), 0.0d);
         Assert.assertEquals(result.getDescription(), bankTransactionExpectd.getDescription());
-        //teste
     }
 }
