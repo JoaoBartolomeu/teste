@@ -29,8 +29,10 @@ public class BankTransactionAnalyser {
     private void collectInformation(BankStatementProcessor bankStatementProcessor){
 
         System.out.println("The total for Transaction is: " + bankStatementProcessor.calculateAmount());
-        System.out.println("The total for Transactions in January is: " + bankStatementProcessor.bankTransactionsInMonth(Month.JANUARY));
-        System.out.println("The total for Transactions in February is: " + bankStatementProcessor.bankTransactionsInMonth(Month.FEBRUARY));
+        System.out.println("The total for Transactions in January is: " + bankStatementProcessor.calculateTotalInMonth(Month.JANUARY));
+        System.out.println("The total for Transactions in February is: " + bankStatementProcessor.calculateTotalInMonth(Month.FEBRUARY));
         System.out.println("The total for Transaction per category: " + bankStatementProcessor.calculateTotalForCategory("Salary"));
+        System.out.println("The total for Transaction Greater Than Equal is: "
+                + bankStatementProcessor.findTransactionsGreaterThanEqual(1000));
     }
 }

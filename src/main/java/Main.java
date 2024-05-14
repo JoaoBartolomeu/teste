@@ -14,6 +14,5 @@ public class Main {
         BankTransactionAnalyser bankTransactionAnalyser = new BankTransactionAnalyser();
         BankStatementParser bankStatementParser = new BankStatementCSVParser();
         bankTransactionAnalyser.analyser(fileName,bankStatementParser );
-
    }
 }

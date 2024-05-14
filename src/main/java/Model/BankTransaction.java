@@ -27,7 +27,7 @@ public class BankTransaction {
 
     @Override
     public String toString() {
-        return "main.java.Model.BankTransaction{" +
+        return "{" +
                 "date=" + date +
                 ", amount=" + amount +
                 ", description='" + description + '\'' +
