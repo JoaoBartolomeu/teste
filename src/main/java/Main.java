@@ -1,5 +1,6 @@
 package main.java;
 
+import main.java.Controller.HtmlExporter;
 import main.java.Interfaces.BankStatementParser;
 import main.java.Parsers.BankStatementCSVParser;
 import main.java.View.BankTransactionAnalyser;
@@ -11,8 +12,10 @@ public class Main {
     public static void main( String[] args) throws IOException {
 
         final  String fileName = "bank-data-simple.csv";
+        HtmlExporter exporter = new HtmlExporter();
         BankTransactionAnalyser bankTransactionAnalyser = new BankTransactionAnalyser();
         BankStatementParser bankStatementParser = new BankStatementCSVParser();
-        bankTransactionAnalyser.analyser(fileName,bankStatementParser );
+        bankTransactionAnalyser.analyser(fileName,bankStatementParser, exporter );
+
    }
 }

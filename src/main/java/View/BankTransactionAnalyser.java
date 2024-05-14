@@ -1,8 +1,11 @@
 package main.java.View;
 
 import main.java.Controller.BankStatementProcessor;
+import main.java.Controller.HtmlExporter;
 import main.java.Interfaces.BankStatementParser;
+import main.java.Interfaces.Exporter;
 import main.java.Model.BankTransaction;
+import main.java.Model.SummaryStatistics;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -15,7 +18,7 @@ public class BankTransactionAnalyser {
 
     private static final String RESOURCES ="C:\\Users\\SENAI\\IdeaProjects\\AnaliseDeExtratosBancarios\\src\\main\\resources\\";
 
-    public void analyser(String fileName, BankStatementParser bankStatementParser) throws IOException {
+    public void analyser(String fileName, BankStatementParser bankStatementParser, final Exporter exporter) throws IOException {
 
         final Path path = Paths.get(RESOURCES + fileName);
 
@@ -23,10 +26,11 @@ public class BankTransactionAnalyser {
         final List<BankTransaction> bankTransactions = bankStatementParser.parseLinesFromCSV(lines);
 
         BankStatementProcessor bankStatementProcessor = new BankStatementProcessor(bankTransactions);
-        collectInformation(bankStatementProcessor);
+        SummaryStatistics summaryStatistics = bankStatementProcessor.sumarizeTransactions();
+        collectInformation(bankStatementProcessor, exporter, summaryStatistics);
     }
 
-    private void collectInformation(BankStatementProcessor bankStatementProcessor){
+    private void collectInformation(BankStatementProcessor bankStatementProcessor,Exporter exporter, SummaryStatistics summaryStatistics){
 
         System.out.println("The total for Transaction is: " + bankStatementProcessor.calculateAmount());
         System.out.println("The total for Transactions in January is: " + bankStatementProcessor.calculateTotalInMonth(Month.JANUARY));
@@ -34,5 +38,7 @@ public class BankTransactionAnalyser {
         System.out.println("The total for Transaction per category: " + bankStatementProcessor.calculateTotalForCategory("Salary"));
         System.out.println("The total for Transaction Greater Than Equal is: "
                 + bankStatementProcessor.findTransactionsGreaterThanEqual(1000));
+
+        System.out.println(exporter.exporter(summaryStatistics));
     }
 }

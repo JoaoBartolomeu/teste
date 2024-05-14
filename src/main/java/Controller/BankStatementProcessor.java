@@ -1,11 +1,18 @@
 package main.java.Controller;
 
 import main.java.Interfaces.BankTransactionSummarizer;
+import main.java.Interfaces.Exporter;
 import main.java.Model.BankTransaction;
 import main.java.Interfaces.BankTransactionFilter;
+import main.java.Model.SummaryStatistics;
+
 import java.time.Month;
 import java.util.ArrayList;
+import java.util.DoubleSummaryStatistics;
 import java.util.List;
+import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.toList;
 
 public class BankStatementProcessor{
     final private List<BankTransaction> bankTransactions;
@@ -32,6 +39,14 @@ public class BankStatementProcessor{
 //        }
 //        return  bankTransactionsInMonth;
 //    }
+    public SummaryStatistics sumarizeTransactions(){
+        final DoubleSummaryStatistics summaryStatistics = new DoubleSummaryStatistics();
+        for (final BankTransaction bankTransaction: bankTransactions) {
+            summaryStatistics.accept(bankTransaction.getAmount());
+        }
+        return new SummaryStatistics(summaryStatistics.getSum(),summaryStatistics.getMax(),summaryStatistics.getMin(),summaryStatistics.getAverage());
+
+    }
      public double summarizeTransactions(final BankTransactionSummarizer bankTransactionSummarizer) {
         double result = 0;
         for (final BankTransaction bankTransaction : bankTransactions) {
@@ -57,6 +72,7 @@ public class BankStatementProcessor{
 
     public List<BankTransaction> findTransactionsGreaterThanEqual(final int amount){
         return findTransactions(bankTransaction -> bankTransaction.getAmount()>=amount);
+        //return bankTransactions.stream().filter(bankTransaction -> bankTransaction.getAmount()>= amount).collect(toList()); melhor forma de fazer
     }
 
     public List<BankTransaction> findTransactions(final BankTransactionFilter bankTransactionfilter) {
