@@ -1,0 +1,13 @@
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Main.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Controller\HtmlExporter.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Controller\BankStatementProcessor.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Model\BankTransaction.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\DAO\BankTransactionsCRUD.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Model\SummaryStatistics.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Interfaces\BankStatementParser.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Interfaces\BankTransactionSummarizer.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Interfaces\BankTransactionFilter.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Parsers\BankStatementCSVParser.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Parsers\BankTransactionsParser.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\View\BankTransactionAnalyser.java
+C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Interfaces\Exporter.java

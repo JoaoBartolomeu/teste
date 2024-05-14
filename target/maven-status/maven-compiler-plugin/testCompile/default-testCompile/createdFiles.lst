@@ -1,0 +1,13 @@
+Model\SummaryStatistics.class
+Interfaces\BankTransactionFilter.class
+Controller\HtmlExporter.class
+Model\BankTransaction.class
+Parsers\BankStatementCSVParser.class
+Interfaces\BankTransactionSummarizer.class
+DAO\BankTransactionsCRUD.class
+Main.class
+Interfaces\BankStatementParser.class
+Parsers\BankTransactionsParser.class
+View\BankTransactionAnalyser.class
+Interfaces\Exporter.class
+Controller\BankStatementProcessor.class
