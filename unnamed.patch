@@ -1,0 +1,1784 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
++++ b/.idea/.gitignore	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/.idea/compiler.xml	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,16 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="AnaliseDeExtratosBancarios" />
++      </profile>
++    </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="untitled" target="22" />
++    </bytecodeTargetLevel>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/.idea/encodings.xml	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/untitled/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/untitled/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/.idea/jarRepositories.xml	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 1d9b977761b19d8e6215ea4e57a1b46d06995b1e)
++++ b/.idea/misc.xml	(revision 1d9b977761b19d8e6215ea4e57a1b46d06995b1e)
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="JavadocGenerationManager">
++    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$" />
++    <option name="OPTION_INCLUDE_LIBS" value="true" />
++  </component>
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/untitled/pom.xml" />
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++    <option name="ignoredFiles">
++      <set>
++        <option value="$PROJECT_DIR$/untitled/pom.xml" />
++      </set>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
++++ b/.idea/modules.xml	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/AnaliseDeExtratosBancarios.iml" filepath="$PROJECT_DIR$/AnaliseDeExtratosBancarios.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
++++ b/.idea/uiDesigner.xml	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision e93bb8fe621739f1f1f628e93146262ccea680da)
++++ b/.idea/vcs.xml	(revision e93bb8fe621739f1f1f628e93146262ccea680da)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/main/resources/bank-data-simple.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/bank-data-simple.csv b/src/main/resources/bank-data-simple.csv
+new file mode 100644
+--- /dev/null	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
++++ b/src/main/resources/bank-data-simple.csv	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
+@@ -0,0 +1,7 @@
++30-01-2017,-100,Deliveroo
++30-01-2017,-50,Tesco
++01-02-2017,6000,Salary
++02-02-2017,2000,Royalties
++02-02-2017,-4000,Rent
++03-02-2017,3000,Tesco
++05-02-2017,-30,Cinema
+\ No newline at end of file
+Index: src/main/resources/Requisitos
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/Requisitos b/src/main/resources/Requisitos
+new file mode 100644
+--- /dev/null	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
++++ b/src/main/resources/Requisitos	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
+@@ -0,0 +1,5 @@
++Ler um arquivo de texto que contém uma Lista de transações bancárias. Texto esse estruturado em formato CSV.
++
++QUAL O TOTAL DE LUCRAS E PERDAS EM UMA LISTA DE EXTRATOS BANCÁRIOS?É POSITIVO OU NEGATIVO?
++QUAIS SÃO SUAS 10 PRINCIPAIS DESPESAS?
++EM QUAL CATEGORIA ELE MAIS GASTA DINHEIRO?
+\ No newline at end of file
+Index: src/test/java/Controller/BankStatementProcessor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Controller/BankStatementProcessor.java b/src/test/java/Controller/BankStatementProcessor.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Controller/BankStatementProcessor.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,83 @@
++package Controller;
++
++import Interfaces.BankTransactionFilter;
++import Interfaces.BankTransactionSummarizer;
++import Model.BankTransaction;
++import Model.SummaryStatistics;
++
++import java.time.Month;
++import java.util.ArrayList;
++import java.util.DoubleSummaryStatistics;
++import java.util.List;
++
++public class BankStatementProcessor{
++    final private List<BankTransaction> bankTransactions;
++
++    public BankStatementProcessor(List<BankTransaction> bankTransactions) {
++        this.bankTransactions = bankTransactions;
++    }
++
++    public double calculateAmount(){
++        double total = 0d;
++        for (final BankTransaction bankTransaction: bankTransactions) {
++            total += bankTransaction.getAmount();
++        }
++        return total;
++    }
++
++//    public List<BankTransaction> bankTransactionsInMonth(final Month month){
++//
++//        List<BankTransaction> bankTransactionsInMonth = new ArrayList<>();
++//        for (BankTransaction bankTransaction: bankTransactions) {
++//            if (bankTransaction.getDate().getMonth() == month) {
++//                bankTransactionsInMonth.add(bankTransaction);
++//            }
++//        }
++//        return  bankTransactionsInMonth;
++//    }
++    public SummaryStatistics sumarizeTransactions(){
++        final DoubleSummaryStatistics summaryStatistics = new DoubleSummaryStatistics();
++        for (final BankTransaction bankTransaction: bankTransactions) {
++            summaryStatistics.accept(bankTransaction.getAmount());
++        }
++        return new SummaryStatistics(summaryStatistics.getSum(),summaryStatistics.getMax(),summaryStatistics.getMin(),summaryStatistics.getAverage());
++
++    }
++     public double summarizeTransactions(final BankTransactionSummarizer bankTransactionSummarizer) {
++        double result = 0;
++        for (final BankTransaction bankTransaction : bankTransactions) {
++            result = bankTransactionSummarizer.summarize(result, bankTransaction);
++        }
++        return result;
++    }
++
++    public double calculateTotalInMonth(final Month month) {
++        return summarizeTransactions((acc, bankTransaction) ->
++                bankTransaction.getDate().getMonth() == month ? acc + bankTransaction.getAmount() : acc);
++    }
++
++    public double calculateTotalForCategory(String category){
++        double total = 0d;
++        for (BankTransaction bankTransaction: bankTransactions){
++            if (bankTransaction.getDescription().equals(category)){
++                total+= bankTransaction.getAmount();
++            }
++        }
++        return total;
++    }
++
++    public List<BankTransaction> findTransactionsGreaterThanEqual(final int amount){
++        return findTransactions(bankTransaction -> bankTransaction.getAmount()>=amount);
++        //return bankTransactions.stream().filter(bankTransaction -> bankTransaction.getAmount()>= amount).collect(toList()); melhor forma de fazer
++    }
++
++    public List<BankTransaction> findTransactions(final BankTransactionFilter bankTransactionfilter) {
++        final List<BankTransaction> result = new ArrayList<>();
++        for (BankTransaction bankTransaction : bankTransactions) {
++            if (bankTransactionfilter.test(bankTransaction)) {
++                result.add(bankTransaction);
++            }
++        }
++        return result;
++    }
++}
+\ No newline at end of file
+Index: src/test/java/Controller/HtmlExporter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Controller/HtmlExporter.java b/src/test/java/Controller/HtmlExporter.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Controller/HtmlExporter.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,25 @@
++package Controller;
++
++import Model.SummaryStatistics;
++import Interfaces.Exporter;
++
++public class HtmlExporter implements Exporter {
++    @Override
++    public String exporter(SummaryStatistics summarySatistics) {
++        String result = "<!doctype html>";
++        result += "<html lang='en'>";
++        result += "<head><title>Bank Transaction Report</title></head>";
++        result += "<body>";
++        result += "<h1>";
++        result += "<ul>";
++        result += "<li><strong>The sum is</strong></li>: " + summarySatistics.getSum();
++        result += "<li<<strong>The max is</strong></li>: " + summarySatistics.getMax();
++        result += "<li><strong>The min is</strong></li>: " + summarySatistics.getMin();
++        result += "<li><strong>The average is</strong></li>: " + summarySatistics.getAverage();
++        result += "</ul>";
++        result += "</body>";
++        result += "</html>";
++
++        return result;
++    }
++}
+Index: src/test/java/DAO/BankTransactionsCRUD.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/DAO/BankTransactionsCRUD.java b/src/test/java/DAO/BankTransactionsCRUD.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/DAO/BankTransactionsCRUD.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,20 @@
++package DAO;
++
++import Model.BankTransaction;
++
++import java.time.LocalDate;
++
++public class BankTransactionsCRUD {
++    public BankTransaction create(final LocalDate date, final double amount, final String description) {
++        throw new UnsupportedOperationException("Not supported yet.");
++    }
++    public BankTransaction read(final long id) {
++        throw new UnsupportedOperationException("Not supported yet.");
++    }
++    public BankTransaction update(final long id) {
++        throw new UnsupportedOperationException("Not supported yet.");
++    }
++    public BankTransaction delete(final long id) {
++        throw new UnsupportedOperationException("Not supported yet.");
++    }
++}
+Index: src/test/java/Interfaces/BankStatementParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Interfaces/BankStatementParser.java b/src/test/java/Interfaces/BankStatementParser.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Interfaces/BankStatementParser.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,10 @@
++package Interfaces;
++
++import Model.BankTransaction;
++
++import java.util.List;
++
++public interface BankStatementParser {
++    BankTransaction parseFrom(final String line);
++    List<BankTransaction> parseLinesFromCSV(final List<String> lines);
++}
+Index: src/test/java/Interfaces/BankTransactionFilter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Interfaces/BankTransactionFilter.java b/src/test/java/Interfaces/BankTransactionFilter.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Interfaces/BankTransactionFilter.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,9 @@
++package Interfaces;
++
++import Model.BankTransaction;
++
++//Com o uso dessa interface, evito a duplicação e alteração do código para introduzir um novo parâmetro.
++@FunctionalInterface
++public interface BankTransactionFilter {
++    boolean test(BankTransaction bankTransaction);
++}
+Index: src/test/java/Interfaces/BankTransactionSummarizer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Interfaces/BankTransactionSummarizer.java b/src/test/java/Interfaces/BankTransactionSummarizer.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Interfaces/BankTransactionSummarizer.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,8 @@
++package Interfaces;
++
++import Model.BankTransaction;
++
++@FunctionalInterface
++public interface BankTransactionSummarizer {
++    double summarize(double accumulator, BankTransaction bankTransaction);
++}
+Index: src/test/java/Interfaces/Exporter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Interfaces/Exporter.java b/src/test/java/Interfaces/Exporter.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Interfaces/Exporter.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,7 @@
++package Interfaces;
++
++import Model.SummaryStatistics;
++
++public interface Exporter {
++    String exporter(final SummaryStatistics summarySatistics);
++}
+Index: src/test/java/Model/BankTransaction.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Model/BankTransaction.java b/src/test/java/Model/BankTransaction.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Model/BankTransaction.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,49 @@
++package Model;
++
++import java.time.LocalDate;
++import java.util.Objects;
++
++public class BankTransaction {
++    private final LocalDate date;
++    private final double amount;
++    private final String description;
++
++    public BankTransaction(LocalDate date, double amount, String description) {
++        this.date = date;
++        this.amount = amount;
++        this.description = description;
++    }
++    public String getDescription() {
++        return description;
++    }
++
++    public double getAmount() {
++        return amount;
++    }
++
++    public LocalDate getDate() {
++        return date;
++    }
++
++    @Override
++    public String toString() {
++        return "{" +
++                "date=" + date +
++                ", amount=" + amount +
++                ", description='" + description + '\'' +
++                '}';
++    }
++
++    @Override
++    public boolean equals(Object o) {
++        if (this == o) return true;
++        if (o == null || getClass() != o.getClass()) return false;
++        BankTransaction that = (BankTransaction) o;
++        return Double.compare(amount, that.amount) == 0 && Objects.equals(date, that.date) && Objects.equals(description, that.description);
++    }
++
++    @Override
++    public int hashCode() {
++        return Objects.hash(date, amount, description);
++    }
++}
+Index: src/test/java/Model/SummaryStatistics.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Model/SummaryStatistics.java b/src/test/java/Model/SummaryStatistics.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Model/SummaryStatistics.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,26 @@
++package Model;
++
++public class SummaryStatistics {
++    private final double sum;
++    private final double max;
++    private final double min;
++    private final double average;
++    public SummaryStatistics(double sum, double max, double min, double average) {
++        this.sum = sum;
++        this.max = max;
++        this.min = min;
++        this.average = average;
++    }
++    public double getSum() {
++        return sum;
++    }
++    public double getMax() {
++        return max;
++    }
++    public double getMin() {
++        return min;
++    }
++    public double getAverage() {
++        return average;
++    }
++}
+\ No newline at end of file
+Index: src/test/java/Parsers/BankStatementCSVParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Parsers/BankStatementCSVParser.java b/src/test/java/Parsers/BankStatementCSVParser.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Parsers/BankStatementCSVParser.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,30 @@
++package Parsers;
++
++import Interfaces.BankStatementParser;
++import Model.BankTransaction;
++
++import java.time.LocalDate;
++import java.time.format.DateTimeFormatter;
++import java.util.ArrayList;
++import java.util.List;
++
++public class BankStatementCSVParser implements BankStatementParser {
++    private static final DateTimeFormatter DATE_PATTERN = DateTimeFormatter.ofPattern("dd-MM-yyyy");
++
++    public BankTransaction parseFrom(final String line){
++        final String[] columns = line.split(",");
++        final LocalDate date = LocalDate.parse(columns[0], DATE_PATTERN);
++        final double amount = Double.parseDouble(columns[1]);
++
++        return new BankTransaction(date, amount, columns[2]);
++    }
++
++    public List<BankTransaction> parseLinesFromCSV(final List<String> lines){
++
++        List<BankTransaction> bankTransactions = new ArrayList<>();
++        for (String line : lines){
++            bankTransactions.add(parseFrom(line));
++        }
++        return bankTransactions;
++    }
++}
+\ No newline at end of file
+Index: src/test/java/Parsers/BankTransactionsParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Parsers/BankTransactionsParser.java b/src/test/java/Parsers/BankTransactionsParser.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Parsers/BankTransactionsParser.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,4 @@
++package Parsers;
++
++public class BankTransactionsParser {
++}
+Index: src/test/java/View/BankTransactionAnalyser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/View/BankTransactionAnalyser.java b/src/test/java/View/BankTransactionAnalyser.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/View/BankTransactionAnalyser.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,43 @@
++package View;
++
++import Controller.BankStatementProcessor;
++import Interfaces.BankStatementParser;
++import Interfaces.Exporter;
++import Model.BankTransaction;
++import Model.SummaryStatistics;
++
++import java.io.IOException;
++import java.nio.file.Files;
++import java.nio.file.Path;
++import java.nio.file.Paths;
++import java.time.Month;
++import java.util.List;
++
++public class BankTransactionAnalyser {
++
++    private static final String RESOURCES ="C:\\Users\\SENAI\\IdeaProjects\\AnaliseDeExtratosBancarios\\src\\main\\resources\\";
++
++    public void analyser(String fileName, BankStatementParser bankStatementParser, final Exporter exporter) throws IOException {
++
++        final Path path = Paths.get(RESOURCES + fileName);
++
++        final List<String> lines = Files.readAllLines(path);
++        final List<BankTransaction> bankTransactions = bankStatementParser.parseLinesFromCSV(lines);
++
++        BankStatementProcessor bankStatementProcessor = new BankStatementProcessor(bankTransactions);
++        SummaryStatistics summaryStatistics = bankStatementProcessor.sumarizeTransactions();
++        collectInformation(bankStatementProcessor, exporter, summaryStatistics);
++    }
++
++    private void collectInformation(BankStatementProcessor bankStatementProcessor,Exporter exporter, SummaryStatistics summaryStatistics){
++
++        System.out.println("The total for Transaction is: " + bankStatementProcessor.calculateAmount());
++        System.out.println("The total for Transactions in January is: " + bankStatementProcessor.calculateTotalInMonth(Month.JANUARY));
++        System.out.println("The total for Transactions in February is: " + bankStatementProcessor.calculateTotalInMonth(Month.FEBRUARY));
++        System.out.println("The total for Transaction per category: " + bankStatementProcessor.calculateTotalForCategory("Salary"));
++        System.out.println("The total for Transaction Greater Than Equal is: "
++                + bankStatementProcessor.findTransactionsGreaterThanEqual(1000));
++
++        System.out.println(exporter.exporter(summaryStatistics));
++    }
++}
+\ No newline at end of file
+Index: src/test/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Main.java b/src/test/java/Main.java
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/src/test/java/Main.java	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,19 @@
++
++import Controller.HtmlExporter;
++import Interfaces.BankStatementParser;
++import Parsers.BankStatementCSVParser;
++import View.BankTransactionAnalyser;
++import java.io.IOException;
++
++public class Main {
++
++    public static void main( String[] args) throws IOException {
++
++        final  String fileName = "bank-data-simple.csv";
++        HtmlExporter exporter = new HtmlExporter();
++        BankTransactionAnalyser bankTransactionAnalyser = new BankTransactionAnalyser();
++        BankStatementParser bankStatementParser = new BankStatementCSVParser();
++        bankTransactionAnalyser.analyser(fileName,bankStatementParser, exporter );
++
++   }
++}
+\ No newline at end of file
+Index: target/classes/main/resources/bank-data-simple.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/main/resources/bank-data-simple.csv b/target/classes/main/resources/bank-data-simple.csv
+new file mode 100644
+--- /dev/null	(revision deff058df56f87e179f46d3957e191c75c639a9b)
++++ b/target/classes/main/resources/bank-data-simple.csv	(revision deff058df56f87e179f46d3957e191c75c639a9b)
+@@ -0,0 +1,7 @@
++30-01-2017,-100,Deliveroo
++30-01-2017,-50,Tesco
++01-02-2017,6000,Salary
++02-02-2017,2000,Royalties
++02-02-2017,-4000,Rent
++03-02-2017,3000,Tesco
++05-02-2017,-30,Cinema
+\ No newline at end of file
+Index: target/classes/main/resources/Requisitos
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/main/resources/Requisitos b/target/classes/main/resources/Requisitos
+new file mode 100644
+--- /dev/null	(revision deff058df56f87e179f46d3957e191c75c639a9b)
++++ b/target/classes/main/resources/Requisitos	(revision deff058df56f87e179f46d3957e191c75c639a9b)
+@@ -0,0 +1,5 @@
++Ler um arquivo de texto que contém uma Lista de transações bancárias. Texto esse estruturado em formato CSV.
++
++QUAL O TOTAL DE LUCRAS E PERDAS EM UMA LISTA DE EXTRATOS BANCÁRIOS?É POSITIVO OU NEGATIVO?
++QUAIS SÃO SUAS 10 PRINCIPAIS DESPESAS?
++EM QUAL CATEGORIA ELE MAIS GASTA DINHEIRO?
+\ No newline at end of file
+Index: target/classes/bank-data-simple.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/bank-data-simple.csv b/target/classes/bank-data-simple.csv
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/target/classes/bank-data-simple.csv	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,7 @@
++30-01-2017,-100,Deliveroo
++30-01-2017,-50,Tesco
++01-02-2017,6000,Salary
++02-02-2017,2000,Royalties
++02-02-2017,-4000,Rent
++03-02-2017,3000,Tesco
++05-02-2017,-30,Cinema
+\ No newline at end of file
+Index: target/classes/Requisitos
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/Requisitos b/target/classes/Requisitos
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/target/classes/Requisitos	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,5 @@
++Ler um arquivo de texto que contém uma Lista de transações bancárias. Texto esse estruturado em formato CSV.
++
++QUAL O TOTAL DE LUCRAS E PERDAS EM UMA LISTA DE EXTRATOS BANCÁRIOS?É POSITIVO OU NEGATIVO?
++QUAIS SÃO SUAS 10 PRINCIPAIS DESPESAS?
++EM QUAL CATEGORIA ELE MAIS GASTA DINHEIRO?
+\ No newline at end of file
+Index: target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/target/maven-archiver/pom.properties b/target/maven-archiver/pom.properties
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/target/maven-archiver/pom.properties	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,3 @@
++artifactId=AnaliseDeExtratosBancarios
++groupId=groupId
++version=1.0-SNAPSHOT
+Index: target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst b/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,13 @@
++Model\SummaryStatistics.class
++Interfaces\BankTransactionFilter.class
++Controller\HtmlExporter.class
++Model\BankTransaction.class
++Parsers\BankStatementCSVParser.class
++Interfaces\BankTransactionSummarizer.class
++DAO\BankTransactionsCRUD.class
++Main.class
++Interfaces\BankStatementParser.class
++Parsers\BankTransactionsParser.class
++View\BankTransactionAnalyser.class
++Interfaces\Exporter.class
++Controller\BankStatementProcessor.class
+Index: target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst b/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,13 @@
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Main.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Controller\HtmlExporter.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Controller\BankStatementProcessor.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Model\BankTransaction.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\DAO\BankTransactionsCRUD.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Model\SummaryStatistics.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Interfaces\BankStatementParser.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Interfaces\BankTransactionSummarizer.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Interfaces\BankTransactionFilter.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Parsers\BankStatementCSVParser.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Parsers\BankTransactionsParser.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\View\BankTransactionAnalyser.java
++C:\Users\SENAI\IdeaProjects\AnaliseDeExtratosBancarios\src\test\java\Interfaces\Exporter.java
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
++++ b/.gitignore	(revision 6076ee046b9b8aa59706db57e771b30a99f25daa)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: allclasses-index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allclasses-index.html b/allclasses-index.html
+new file mode 100644
+--- /dev/null	(revision 1d9b977761b19d8e6215ea4e57a1b46d06995b1e)
++++ b/allclasses-index.html	(revision 1d9b977761b19d8e6215ea4e57a1b46d06995b1e)
+@@ -0,0 +1,88 @@
++<!DOCTYPE HTML>
++<html lang="pt">
++<head>
++<!-- Generated by javadoc (22) on Tue Nov 05 14:08:19 BRT 2024 -->
++<title>All Classes and Interfaces</title>
++<meta name="viewport" content="width=device-width, initial-scale=1">
++<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
++<meta name="dc.created" content="2024-11-05">
++<meta name="description" content="class index">
++<meta name="generator" content="javadoc/AllClassesIndexWriter">
++<link rel="stylesheet" type="text/css" href="resource-files/jquery-ui.min.css" title="Style">
++<link rel="stylesheet" type="text/css" href="resource-files/stylesheet.css" title="Style">
++<script type="text/javascript" src="script-files/script.js"></script>
++<script type="text/javascript" src="script-files/jquery-3.6.1.min.js"></script>
++<script type="text/javascript" src="script-files/jquery-ui.min.js"></script>
++</head>
++<body class="all-classes-index-page">
++<script type="text/javascript">var pathtoroot = "./";
++loadScripts(document, 'script');</script>
++<noscript>
++<div>JavaScript is disabled on your browser.</div>
++</noscript>
++<header role="banner">
++<nav role="navigation">
++<!-- ========= START OF TOP NAVBAR ======= -->
++<div class="top-nav" id="navbar-top"><button id="navbar-toggle-button" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation links"><span class="nav-bar-toggle-icon">&nbsp;</span><span class="nav-bar-toggle-icon">&nbsp;</span><span class="nav-bar-toggle-icon">&nbsp;</span></button>
++<div class="skip-nav"><a href="#skip-navbar-top" title="Skip navigation links">Skip navigation links</a></div>
++<ul id="navbar-top-firstrow" class="nav-list" title="Navigation">
++<li><a href="index.html">Overview</a></li>
++<li>Package</li>
++<li>Class</li>
++<li><a href="overview-tree.html">Tree</a></li>
++<li><a href="index-files/index-1.html">Index</a></li>
++<li><a href="help-doc.html#all-classes">Help</a></li>
++</ul>
++</div>
++<div class="sub-nav">
++<div id="navbar-sub-list"></div>
++<div class="nav-list-search"><a href="search.html">SEARCH</a>
++<input type="text" id="search-input" disabled placeholder="Search">
++<input type="reset" id="reset-button" disabled value="reset">
++</div>
++</div>
++<!-- ========= END OF TOP NAVBAR ========= -->
++<span class="skip-nav" id="skip-navbar-top"></span></nav>
++</header>
++<main role="main">
++<div class="header">
++<h1 title="All Classes and Interfaces" class="title">All Classes and Interfaces</h1>
++</div>
++<div id="all-classes-table">
++<div class="table-tabs" role="tablist" aria-orientation="horizontal"><button id="all-classes-table-tab0" role="tab" aria-selected="true" aria-controls="all-classes-table.tabpanel" tabindex="0" onkeydown="switchTab(event)" onclick="show('all-classes-table', 'all-classes-table', 2)" class="active-table-tab">All Classes and Interfaces</button><button id="all-classes-table-tab1" role="tab" aria-selected="false" aria-controls="all-classes-table.tabpanel" tabindex="-1" onkeydown="switchTab(event)" onclick="show('all-classes-table', 'all-classes-table-tab1', 2)" class="table-tab">Interfaces</button><button id="all-classes-table-tab2" role="tab" aria-selected="false" aria-controls="all-classes-table.tabpanel" tabindex="-1" onkeydown="switchTab(event)" onclick="show('all-classes-table', 'all-classes-table-tab2', 2)" class="table-tab">Classes</button></div>
++<div id="all-classes-table.tabpanel" role="tabpanel">
++<div class="summary-table two-column-summary" aria-labelledby="all-classes-table-tab0">
++<div class="table-header col-first">Class</div>
++<div class="table-header col-last">Description</div>
++<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="Parsers/BankStatementCSVParser.html" title="class in Parsers">BankStatementCSVParser</a></div>
++<div class="col-last even-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++<div class="col-first odd-row-color all-classes-table all-classes-table-tab1"><a href="Interfaces/BankStatementParser.html" title="interface in Interfaces">BankStatementParser</a></div>
++<div class="col-last odd-row-color all-classes-table all-classes-table-tab1">&nbsp;</div>
++<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="Controller/BankStatementProcessor.html" title="class in Controller">BankStatementProcessor</a></div>
++<div class="col-last even-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="Model/BankTransaction.html" title="class in Model">BankTransaction</a></div>
++<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="View/BankTransactionAnalyser.html" title="class in View">BankTransactionAnalyser</a></div>
++<div class="col-last even-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++<div class="col-first odd-row-color all-classes-table all-classes-table-tab1"><a href="Interfaces/BankTransactionFilter.html" title="interface in Interfaces">BankTransactionFilter</a></div>
++<div class="col-last odd-row-color all-classes-table all-classes-table-tab1">&nbsp;</div>
++<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="DAO/BankTransactionsCRUD.html" title="class in DAO">BankTransactionsCRUD</a></div>
++<div class="col-last even-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="Parsers/BankTransactionsParser.html" title="class in Parsers">BankTransactionsParser</a></div>
++<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++<div class="col-first even-row-color all-classes-table all-classes-table-tab1"><a href="Interfaces/BankTransactionSummarizer.html" title="interface in Interfaces">BankTransactionSummarizer</a></div>
++<div class="col-last even-row-color all-classes-table all-classes-table-tab1">&nbsp;</div>
++<div class="col-first odd-row-color all-classes-table all-classes-table-tab1"><a href="Interfaces/Exporter.html" title="interface in Interfaces">Exporter</a></div>
++<div class="col-last odd-row-color all-classes-table all-classes-table-tab1">&nbsp;</div>
++<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="Controller/HtmlExporter.html" title="class in Controller">HtmlExporter</a></div>
++<div class="col-last even-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="Main.html" title="class in Unnamed Package">Main</a></div>
++<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="Model/SummaryStatistics.html" title="class in Model">SummaryStatistics</a></div>
++<div class="col-last even-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
++</div>
++</div>
++</div>
++</main>
++</body>
++</html>
+Index: allpackages-index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allpackages-index.html b/allpackages-index.html
+new file mode 100644
+--- /dev/null	(revision 1d9b977761b19d8e6215ea4e57a1b46d06995b1e)
++++ b/allpackages-index.html	(revision 1d9b977761b19d8e6215ea4e57a1b46d06995b1e)
+@@ -0,0 +1,72 @@
++<!DOCTYPE HTML>
++<html lang="pt">
++<head>
++<!-- Generated by javadoc (22) on Tue Nov 05 14:08:19 BRT 2024 -->
++<title>All Packages</title>
++<meta name="viewport" content="width=device-width, initial-scale=1">
++<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
++<meta name="dc.created" content="2024-11-05">
++<meta name="description" content="package index">
++<meta name="generator" content="javadoc/AllPackagesIndexWriter">
++<link rel="stylesheet" type="text/css" href="resource-files/jquery-ui.min.css" title="Style">
++<link rel="stylesheet" type="text/css" href="resource-files/stylesheet.css" title="Style">
++<script type="text/javascript" src="script-files/script.js"></script>
++<script type="text/javascript" src="script-files/jquery-3.6.1.min.js"></script>
++<script type="text/javascript" src="script-files/jquery-ui.min.js"></script>
++</head>
++<body class="all-packages-index-page">
++<script type="text/javascript">var pathtoroot = "./";
++loadScripts(document, 'script');</script>
++<noscript>
++<div>JavaScript is disabled on your browser.</div>
++</noscript>
++<header role="banner">
++<nav role="navigation">
++<!-- ========= START OF TOP NAVBAR ======= -->
++<div class="top-nav" id="navbar-top"><button id="navbar-toggle-button" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation links"><span class="nav-bar-toggle-icon">&nbsp;</span><span class="nav-bar-toggle-icon">&nbsp;</span><span class="nav-bar-toggle-icon">&nbsp;</span></button>
++<div class="skip-nav"><a href="#skip-navbar-top" title="Skip navigation links">Skip navigation links</a></div>
++<ul id="navbar-top-firstrow" class="nav-list" title="Navigation">
++<li><a href="index.html">Overview</a></li>
++<li>Package</li>
++<li>Class</li>
++<li><a href="overview-tree.html">Tree</a></li>
++<li><a href="index-files/index-1.html">Index</a></li>
++<li><a href="help-doc.html#all-packages">Help</a></li>
++</ul>
++</div>
++<div class="sub-nav">
++<div id="navbar-sub-list"></div>
++<div class="nav-list-search"><a href="search.html">SEARCH</a>
++<input type="text" id="search-input" disabled placeholder="Search">
++<input type="reset" id="reset-button" disabled value="reset">
++</div>
++</div>
++<!-- ========= END OF TOP NAVBAR ========= -->
++<span class="skip-nav" id="skip-navbar-top"></span></nav>
++</header>
++<main role="main">
++<div class="header">
++<h1 title="All&amp;nbsp;Packages" class="title">All&nbsp;Packages</h1>
++</div>
++<div class="caption"><span>Package Summary</span></div>
++<div class="summary-table two-column-summary">
++<div class="table-header col-first">Package</div>
++<div class="table-header col-last">Description</div>
++<div class="col-first even-row-color"><a href="package-summary.html">Unnamed Package</a></div>
++<div class="col-last even-row-color">&nbsp;</div>
++<div class="col-first odd-row-color"><a href="Controller/package-summary.html">Controller</a></div>
++<div class="col-last odd-row-color">&nbsp;</div>
++<div class="col-first even-row-color"><a href="DAO/package-summary.html">DAO</a></div>
++<div class="col-last even-row-color">&nbsp;</div>
++<div class="col-first odd-row-color"><a href="Interfaces/package-summary.html">Interfaces</a></div>
++<div class="col-last odd-row-color">&nbsp;</div>
++<div class="col-first even-row-color"><a href="Model/package-summary.html">Model</a></div>
++<div class="col-last even-row-color">&nbsp;</div>
++<div class="col-first odd-row-color"><a href="Parsers/package-summary.html">Parsers</a></div>
++<div class="col-last odd-row-color">&nbsp;</div>
++<div class="col-first even-row-color"><a href="View/package-summary.html">View</a></div>
++<div class="col-last even-row-color">&nbsp;</div>
++</div>
++</main>
++</body>
++</html>
+Index: AnaliseDeExtratosBancarios.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/AnaliseDeExtratosBancarios.iml b/AnaliseDeExtratosBancarios.iml
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/AnaliseDeExtratosBancarios.iml	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="AdditionalModuleElements">
++    <content url="file://$MODULE_DIR$" dumb="true">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++  </component>
++</module>
+\ No newline at end of file
+Index: element-list
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/element-list b/element-list
+new file mode 100644
+--- /dev/null	(revision 1d9b977761b19d8e6215ea4e57a1b46d06995b1e)
++++ b/element-list	(revision 1d9b977761b19d8e6215ea4e57a1b46d06995b1e)
+@@ -0,0 +1,7 @@
++unnamed package
++Controller
++DAO
++Interfaces
++Model
++Parsers
++View
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/pom.xml	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,29 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>groupId</groupId>
++    <artifactId>AnaliseDeExtratosBancarios</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++    <properties>
++        <maven.compiler.source>22</maven.compiler.source>
++        <maven.compiler.target>22</maven.compiler.target>
++        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++    </properties>
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <configuration>
++                    <source>9</source>
++                    <target>9</target>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
++
++</project>
+\ No newline at end of file
+Index: untitled.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/untitled.iml b/untitled.iml
+new file mode 100644
+--- /dev/null	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
++++ b/untitled.iml	(revision d9f029310016ccc1b81e6401afd27ff383b9b38d)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.system.module.version="223-2" org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$/untitled" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/target/classes/Controller/BankStatementProcessor.class b/target/classes/Controller/BankStatementProcessor.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..0a2662b090a16f07b8d635cc6f9599d867a2cc13
+GIT binary patch
+literal 4326
+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
+
+diff --git a/target/classes/Controller/HtmlExporter.class b/target/classes/Controller/HtmlExporter.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..1c6575175a7daaafc7c569593c3e9e9d8ccb0b86
+GIT binary patch
+literal 1767
+zc$|$@>vr2j5dIb?mQe+1ltL3OtqN)4^d<u3)~JTYX_^$fh1jG(xozyNy^Xxek=8lM
+zoA4O$2hQ;i9)MTiT{z6HL=swu!=G<Pv$Heb&d!eh_-ph#fcNo(ix*IGFyUbmWrnj)
+z`92S0u6p6aou{Is8Oo7VQr8$t)urtUDhyN6rEb#EhkGLE>p@)eDU|Es3_OPO1HLQj
+ziRy6uNa{XmndVAo3=7r9aqyN-rRuFLJ#X^C;QGXhpk!bIt_vSC4$gUa1+P+$X3`aL
+z*cuK7JUwh_u4SfWhjNsALX+8YUGwQkvxe3j!{V6aYh$vTOs{)*!=y36n*6{=8MDTI
+z(L-=#m&%8e+u!yuZ|pAF@9c||_k@oMW_`S9_`3$qz;$qis8d07n#8e4!wst4-GjX(
+z)gpCpjbUa}k@|#pL>B(Dz%Ws#(^AnJQi%t{!H!7Vd?zN0-$*(<-sY(^--U5P_azl#
+zu5n7D6^4p9ihaG>IHi{3u7=tpEBua2K6h#as#GenVXO_+F~QtcGE6&ST^iogCrREg
+z-jr=MNpz-DzSk7GpLDYdBJyOB>AJuKyS*sXVyyz|&YNTwyjzR3)Ul|oa<v<@Q?4@J
+z(K1oNmN2oSFkg;B>s-O73=WHSlI|gWtTIeem}OGetU8QIU1zAWD3-N|xFo7qYxhM!
+zg$QI8g@q{!Y5i8fD%dEzqm$kPelXtq{<zo!sm6OZ7`4f>-aK!)@jD*SC9o*8=lGni
+zp7i3ZTltrLz*A+kU3`gc2an8y`HErw_`;;xPj*FdZ~4<+r=lk5A;V86-&Nt5U)Ba!
+z-B@JvjU?F}?yWrE0H<wi(_9(j{<!h%X!=)+79r|9j$2X-YA<h7DUsG=o@F9)@R;H9
+z|Dx*PJBADY?MhY6opA|EG^-e{(hM|`rYPZc`U*)hl9N|{1N+4;-ykeoW0{r#FL%H@
+zSSHEvF5W9P|4Fm2L{j=r^V*0835<9t7cb{xDi>#sxcV!mM>t=ouZ{3#p<Wmf#aw-B
+zgv<Gsg<LG=qH4s?M+9$~_>{3^CKolsG|`-;)ECLVKuMP=V?@?_H2StMgRgN8Khj|C
+zQF?QzASYfN%4j#~M?)hSPw)XgH2)iXWV3xtxq$l=zeVdS7H?bp#Nr)`b&Gc`-m|!A
+Y@iU7}iw`Y+L0srhMA|p_7T;s;ZxKqajsO4v
+
+diff --git a/target/classes/DAO/BankTransactionsCRUD.class b/target/classes/DAO/BankTransactionsCRUD.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..431dcc4f68c8aa8d2eeb35f5c68d3cc6bc659ba1
+GIT binary patch
+literal 939
+zc$}4z-A~j&6vfZ%mMxUk#VQE+wSdNz2m0jG8WLpjfmAl(EAer*oxs5Ew3$wg{#ibe
+zXrk}_QN}w%<0iO3=)=sN+tc4UchcW~zW)U97Ow)-Q1{_AF@*-h+!_DOqajx(QGakI
+z62s7VCzUjt4E4^NV;|EDug9VzRg`(2X(Q5pE;KhXQ#)T0k=tS#0YkW#nf5<X`>QY;
+z0em#A;XQ`=PCTX^7%kOF*V?og7JFO$=sj2GhnlN`Cl*<3?;rITyzML%46Rryu~&`;
+zLLc(MkUC+UC46|ywY2A|>6uemFf7N{0lPG1q6If3-l_r_ITDeh^{C(NO^6wPq!h!e
+zM1py#L(NYlkry9jrJ}24G|Fr$ibP9yVK)DNHiV;SDdq3%UT;~Gq+q)QFY`<H1_^~N
+zf`hEoiTEJxT`WzSf5Vz$1^4M^u+J2j{T*nXqf<mXv)%Ozuy0h<@PO8aYx)RjZC(oS
+z5RYi5$+1v<ypKBdf#3)HPvOi3W`A8F%s9e2Jgce*wt9?3_ddW9mR+y_Pw<p<4A1bq
+m;%^eaej~r>_zM+b%zuHl8*Jqctkx~8)jP1lTUcvO|MD-$lCj?a
+
+diff --git a/target/classes/Interfaces/BankStatementParser.class b/target/classes/Interfaces/BankStatementParser.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..789f74d5383b9df20ba4a3d44948800c2c5d9396
+GIT binary patch
+literal 363
+zc${^RK}!Qc429oR?b@oKH%~oyQUv$psig;nLSdza5$|!0%hYXFX0rY`5B>mulsK~p
+zLaRB2m%K0GeSW=v0Jz3chMvJ_F3SFyN)GuA$%|D|UbE<ud|;np*Wh?XZ<N<0Rlay!
+zaj6D_*EF8_W^HhJUi>at^-iksMRC_Waor*BJxQQaT_a<Ilg?Q<;gIaN_QBxnhtR64
+z^TGv<{tY3Xw5}4;*0aH4(=ge7VY&sG{PWZ_(ucNbeaSOdNBrp@Nn9mX-@sr8sd_P(
+VJ@k<R%CH~xK~gb{-9gtKegivVYAyf(
+
+diff --git a/target/classes/Interfaces/BankTransactionFilter.class b/target/classes/Interfaces/BankTransactionFilter.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..7d6c44386f157ab6685aace1255b4fa340624b5f
+GIT binary patch
+literal 252
+zc${rcyKcfj5S-;<6Vjv&O(>zkRVu2aK#F7(2_g!*wOOKbE^Enm=Hn>%06q$Fc9BSk
+zEp}Ggd7UrE6M$Dd#^?~nAL^yrb1p7<XZ`uASRLoyl)5lBykhhSPX!-1v8><8XI4n=
+z2|X_^z-W>#%bnO;@qD@^4A*5{<r0h}Fz?#W8fU`us#b4)Wn-Mlth}j~o*R}Uyrlo>
+hi&|ST+rQrPh(PF~846wdh{DxD-0lG$0!D!`1g=M8Ms5HA
+
+diff --git a/target/classes/Interfaces/BankTransactionSummarizer.class b/target/classes/Interfaces/BankTransactionSummarizer.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..09acba1c0764f052296b90dee472e5028a2daa9b
+GIT binary patch
+literal 266
+zc$_=+Z`VEs1_o0GZgvJHMg|qnypq(Sw8Z4pVtuE?yzG#o#Ju9f<dV$%yx`K@+{B{H
+zs?;KO1{OvJfvm)`ME#t^ymWp4q^#8B5=I8jVwe&}25Ai!AK(0x)EsnUtTkO28MuP;
+zON)|I-7<54O671`qzAHtkwG%3G_NExH#ID?I5R0H)iEzGza$Z)vY3%U-Us0hx6(YY
+q0f{+qUs$s-GB7eQGk^di(ABIAY(N$h13Q@HVBiGOY(N!U3=9CvkW5(s
+
+diff --git a/target/classes/Interfaces/Exporter.class b/target/classes/Interfaces/Exporter.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..a7fd7f8639bbb1a27cb0bdc42822002b4c11fdb1
+GIT binary patch
+literal 175
+zc$_=+Z`VEs1_o0GPId++Mh0Qeypq(Sw8Z4pVtv<&g8U*NkDY;qkwG9Uu`E$PCowNw
+z-#;lUHMxY5fg=^FfRRC0!^by2B{fGsxHLC6v8Xb*B(Ws3xFj>V*jm#Ep)<IoC^IkJ
+xnvsDkIKQ+gIn^yQCzX+b7iN(jNF^I110w@70|+nz?PX<P1F;y`fg}?H2LNC=F8=@k
+
+diff --git a/target/classes/Model/BankTransaction.class b/target/classes/Model/BankTransaction.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..14ed91c6b85f5103775a300ca656954250634cdc
+GIT binary patch
+literal 2085
+zc$|$?U2hvz5Ixsl>o{wtcH^W08Ujh{^*XIfq0r){AF&Ay*bU&2lJx1uUgE9SyJo$P
+zR3ZKc@D4~Q5>z4(RRZzE1HTC&=3Z}I$6gS!)^~R9%$b=pGyCV?Pk#e&4G$9tA*>*x
+zB8nKpnMeGP7cFid6u0&t84ZsicGI*??-oN?%kNAfjwuBR71K}|vNfk^SjBa2x3^tx
+z_jtoI9h)K2<eov-RSD;r9iv!v8r-Uox+E}CDrRtoz<I~%+Z2UWggT?*EM^&|n?|qU
+zn%x0frusaqy62kqK`DVb%quvjVgWClN_$|ypd50mZ)|<aa8av{S5?YSLS~4NmsFg`
+zBEx)#w~ex6H@Nq}^jakKJZ^hEh8x<XXJt|qfG?O{Qt=92Wr!abUfJS30z9jY+Davv
+zuHb@#iz;%^PE}WN`ui3!t2CTWm%AiIwMr$wnShRhf>jllaG4=3J^G$$`2|y;nDJSk
+zTO{NH_y}NVPh@dL5d0c-Qmc%nIY^@<qQ0);4P2v^w|K9`FsD5Xz}jReXo15J#N7^|
+zm1(dTW~!!b-0yex4R@Q%!ZXr!hr6bD_mvT^Wl~}D)xdEqF{Fs^%IHYVY5^T$m?FEo
+z{zTHaSBPlgDTjIfnafxO)J@NMHg(ycS=*!Wc21A6e<f4r6f9Zyc%xn8UB9BZU~|9$
+z<w5i%>Q3Kn7#pUzogJ(2vH+$zS$7<-=efLFGrX45?8R}PVfk~hjB9LlX|QWT8d<Nk
+z9Ls$%6T=4ye29+})Wr&HGpsyM*0c|uw&Alh*oqAb?6{8^z8o#sHylL2$L*$N^j4~l
+z)9!amlXU-^<M!jO5nvuPSCbHBZdr9xwng2vZNrrtW%Lw0V7TzVQdO|au=wAmv`zzK
+z+UGbeHV{Ted=p8^h)<h5>03sp0@_l%N&j!rTZb&8bY}Hm!1Tf~6kR(;QeTK1BmIOf
+zLby)<bJA!U5rUjT5-Ix467UVu>ZBzAyp0kdB@viONrVnbNd%9O_9oW+&_z0hRaE~8
+z=^uxoVp5rw&;yvL56y53w};N5p>y(wG3RWc^Bvp`h^&l9UI=tvAEtd<mLV7;=M#A(
+zMFmgsA}|iNI0BX(f?Yz{2m7AD!gSX3!ncS<jtYMurT>hV3-o-0X!xk`JK{AFVwIi~
+zEPst<5qDL_&VMDtr|B&%-;~IAh=h-1|F6rQi`L|*=Nir-PphQMgq8+Dhb^n2f_EsT
+z^SFWy(uMFYX_JU5DfSnxDu~|^jNQYgpZ9x2ji_lU_A5fWVUbdOH=@fNi}hXE()tOm
+m9*yx)9N}Zh4<9BpVf8+$bjIm!i=G-jrndx1JNN{9SojB>=g$-X
+
+diff --git a/target/classes/Model/SummaryStatistics.class b/target/classes/Model/SummaryStatistics.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..3cf1e7b4a2ea438fa9b81a30b32584389419ddf9
+GIT binary patch
+literal 774
+zc${@mO;5r=5PeH2m0ASLH~8&A=|L`f(wG>DC(r|i`+^OwX-iTH!K1&(m`F@K_yhb=
+z#@SLmVC|+m^LFRWd$XTk?;ik8u&*NlMMKhniWEccflqnU;oh)$(|@oB0YmCccp^Aw
+zP!1ctG**z-pc`0)!BFmu?rf*oowzRdAG-k$#5fRxF%^#|E(2>x!kU4stX5n;lX%^L
+zxxm7cxL}|tvBsyi&xbZ;hb{UVJ%;2ZDKKQ)!n3a@Zr}EAdEcQEvppJcr^kIEademr
+z?gfcg+yD4FrE!LK(3Re3oYn$%_$*3<$DmVk@nb~qjwb%Vz7n!~=}*5S`CQng84~oI
+zNg9iug)&nP97Z#W#W1R1^p|Ka6MBMzG{w6024)@1p;?VNGFC;MBWG2#Ir1-boj`^5
+z8d9{ckVu-Ajx~}hP}3SRsM5_bHKtaC>p+-ED=f^U870i5okg8Aq|yBbHX}PtQj+zm
+y^$P9zS2z_OW<!xhLp2g%*oq}*mdR!;c{`SzTP7D{$vd&+{4%)`OWqBu_Pzm#$!H+}
+
+diff --git a/target/classes/Parsers/BankStatementCSVParser.class b/target/classes/Parsers/BankStatementCSVParser.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..350ee29c56bf8b2cbaee8ade02824d96a50b527a
+GIT binary patch
+literal 2060
+zc$}40?N%E_7=9*M*ksv~5DG%62n9<Lk_NG8+eDNSP&5hH#8jwSC&>caCcC)Vc;o`S
+z2(Q4utv#oJJ$m}PH{pGFjvwy~2{a#S&7SPeyr0keHS^-npMM3ggk23DcvUDm`q0l1
+ze89iui7L1D5}Tz5M%iWPPnnkKE;D$;k)jVi1{TwxVL*kh;{pcTwDPWFT6+wA^@FNO
+z+H>JdCo>tj*G=;yh#?gr9mBZDFuBE@y5ZClx4HE&?{e3u8J4@6FP_pF^z=$$?f%wE
+zp|Ex*$1r<p(KTyEV%K(R+)boOsX+U6xpfUEsbLhasTk8Sj!O)~=PDVy%&S6yfFB4C
+z4EdLVukLdvZ+z1*tg?}O6<3i=590*jGG13PspAbywWTd>H%e9VIv~Bbb|bx#msW9w
+zSXsMbRAqV!4!7#O?3%WvVH&fdly5T3hkIg3_b^#hG1tmR!!@gk702O+8ME$cxC-w8
+zqL^0^(-FrthQV_=A;RD@DP->2RF=_jGjhq^Xws7dSioB<7InOh>kOf85e9Xi*K@{q
+zu57d&q4AE6cX5M3u_XCo%l1p{NhuBDmX0J+41Srsb;quqN8c7_rf1TUBEDrE@8bjV
+z%`26T#5X-fc6_+apj9gIY&L#KKMiTDsaV(XAwFWb^51<y813CHxwIH=^u+iI-KFAV
+z8j%f)*1NoHbWBNWM3hyEmLZTaEhE>cl?<oAWm|=0Hx#*JihYx)xcg?EVJh?Qlb0mP
+zDj5`3y1-Kr%XYO<v&hhJk0B@BiX5_$o~=n|4X@b^i)zi%3`4S<0)1W7lps)!!<qK(
+zOGY{gG{OQPK?ruUf~EG_lhkN?HVzM38JX=+Pjv^hOeQ-4r2e7HgzN=MX!&85A2eO~
+z^X8t#-G)Q!&Cbwz`ujiLe5rD^d3I}gyWy0LbyIkq=v~@t!ZIBoLAnwcHt2sz9L97{
+zD72>Qf!?3cE<s;L-@fP(*kf9FkfC?KBn}`;Z~asNIc(CGiScYIe-D);fw}pR`V{_b
+z%)9s#0>>E1#gxTkOx#qSVR}10ro{Rdk1+G-%zTJY00B~`i-MkU!X{i@CpToS=}N4&
+z@F_V{F@-zGllBlD`vrUkFX;@Th`TbL&#_HB0qGaw2pdb!aCQ3#;q3egA`H3s2@(uH
+zV3HO~49}t6Qex3@<tc8S;5`rS{`l8#u}3mJ0^q1LG6o;HnW5AzV1iD&%MxUiWM=5D
+z6wnlT@wVVDVF&jJj*rgPFKFe#m(rG}$@}Vzcb{lq6Lk=tKM+t6Rk83pS>-ZCC6X$i
+cm1tV#AMl4(j<Na#fyc58=VcNFsz^oSZ^{S-*8l(j
+
+diff --git a/target/classes/Parsers/BankTransactionsParser.class b/target/classes/Parsers/BankTransactionsParser.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..def2b167609d32a7aa4d5d01aa219235126ff144
+GIT binary patch
+literal 307
+zc$|Gt!A`<Z5S*o@)r!(^H6eIY5BB6q!T}RcjgUaNZ|jRbsISR;h5zD2!od&Vqm0|a
+zk+_@8?o4JknZxh?2f#Dp2rYOa{0`a(2=S6PoD^(6lS#Hzc|{0@+UROT@a`WLAub60
+zDO;zkOU7(gbIZnYUg^@fqfYQ&%MV59rrN0Y^>?Q1oU=ldURvf{EZFLrpG3d<(vC1l
+z|9|^Jh-T&5=ITw?XSe5VPjv#^A(UWsk+eh;ycCu+9B4o8KwDW_hy;U1^l&BEIT~bM
+KH|IBvtNRDdYDUWd
+
+diff --git a/target/classes/View/BankTransactionAnalyser.class b/target/classes/View/BankTransactionAnalyser.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..2cac3935b236f9957dc8a6517ecd3180af4530df
+GIT binary patch
+literal 3456
+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
+YsK$@g_^BE{$9E*_r`h-T5kDjFA3tQym;e9(
+
+diff --git a/target/classes/Main.class b/target/classes/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..fd36ecee0e9fb51250e429ca607c07c6e87dd899
+GIT binary patch
+literal 925
+zc$|e&+iuf95ItMFb>gH=NJ>LWD1}l;N)x}p3qeQ_6;b4-NU1C#p4RR*Z1E+s-BSL6
+zpW%f{MB)SZD8#H2sGtFCc}F{Q=FIWg{r3IKR{#&uF);_tfL_Er78uIM{FGZh4~N#i
+zdn~+^Vd1e1W%`6cYqp#matzBZ58t&9dCJ>~3`V}_c*&^&lcCm&!ZeP2U&PjnH1K!M
+zMp2xK*hF4US!8H9QoOgG5y3&s!-RXOjKZfO_dg^GR#dPu!`dqzQzFTbgOsNt5MkOI
+zIFr1I5;TRb7O{-03^_ifV0hWIFMeW>#xfjs?cI=69C1(l!8oD&t^QMUx8)e9G3a|-
+zh7@|yp<pQ4G8Fxjz!mWUcYVrK?8xK3!(*xT)1;ohl?i!gtL854gN$UQ`R1~?mP2(O
+z4+&qLQKp|elD_EkAR9KTE~b(h>h@nwfM7Luw(I1!{jXD@)~b8iG=}y6*~(z<oOxoT
+z*b)Qxi71mVBWrj6SA|f6=p^>UbE&M$E6X|xhg(>o>#3eOFm*v`y+%8WBBMCJbq@9^
+zE7xgV$dWm%(psDVa2*YbdECGnp;Yrn=#&TURt$TL{OfZR_QohuT<VWeqIl(z-mVyR
+zefu*i7woIVuXr^qqJSk-=?*qf#wIG+#0L{r+{8LX4I3o?HmN9(h7H^ymMXoQgwUwZ
+U#62`gNsF*Lp|<GT&StfL0K@Fxng9R*
+
+diff --git a/target/test-classes/Controller/BankStatementProcessor.class b/target/test-classes/Controller/BankStatementProcessor.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..0a2662b090a16f07b8d635cc6f9599d867a2cc13
+GIT binary patch
+literal 4326
+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
+
+diff --git a/target/test-classes/Controller/HtmlExporter.class b/target/test-classes/Controller/HtmlExporter.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..1c6575175a7daaafc7c569593c3e9e9d8ccb0b86
+GIT binary patch
+literal 1767
+zc$|$@>vr2j5dIb?mQe+1ltL3OtqN)4^d<u3)~JTYX_^$fh1jG(xozyNy^Xxek=8lM
+zoA4O$2hQ;i9)MTiT{z6HL=swu!=G<Pv$Heb&d!eh_-ph#fcNo(ix*IGFyUbmWrnj)
+z`92S0u6p6aou{Is8Oo7VQr8$t)urtUDhyN6rEb#EhkGLE>p@)eDU|Es3_OPO1HLQj
+ziRy6uNa{XmndVAo3=7r9aqyN-rRuFLJ#X^C;QGXhpk!bIt_vSC4$gUa1+P+$X3`aL
+z*cuK7JUwh_u4SfWhjNsALX+8YUGwQkvxe3j!{V6aYh$vTOs{)*!=y36n*6{=8MDTI
+z(L-=#m&%8e+u!yuZ|pAF@9c||_k@oMW_`S9_`3$qz;$qis8d07n#8e4!wst4-GjX(
+z)gpCpjbUa}k@|#pL>B(Dz%Ws#(^AnJQi%t{!H!7Vd?zN0-$*(<-sY(^--U5P_azl#
+zu5n7D6^4p9ihaG>IHi{3u7=tpEBua2K6h#as#GenVXO_+F~QtcGE6&ST^iogCrREg
+z-jr=MNpz-DzSk7GpLDYdBJyOB>AJuKyS*sXVyyz|&YNTwyjzR3)Ul|oa<v<@Q?4@J
+z(K1oNmN2oSFkg;B>s-O73=WHSlI|gWtTIeem}OGetU8QIU1zAWD3-N|xFo7qYxhM!
+zg$QI8g@q{!Y5i8fD%dEzqm$kPelXtq{<zo!sm6OZ7`4f>-aK!)@jD*SC9o*8=lGni
+zp7i3ZTltrLz*A+kU3`gc2an8y`HErw_`;;xPj*FdZ~4<+r=lk5A;V86-&Nt5U)Ba!
+z-B@JvjU?F}?yWrE0H<wi(_9(j{<!h%X!=)+79r|9j$2X-YA<h7DUsG=o@F9)@R;H9
+z|Dx*PJBADY?MhY6opA|EG^-e{(hM|`rYPZc`U*)hl9N|{1N+4;-ykeoW0{r#FL%H@
+zSSHEvF5W9P|4Fm2L{j=r^V*0835<9t7cb{xDi>#sxcV!mM>t=ouZ{3#p<Wmf#aw-B
+zgv<Gsg<LG=qH4s?M+9$~_>{3^CKolsG|`-;)ECLVKuMP=V?@?_H2StMgRgN8Khj|C
+zQF?QzASYfN%4j#~M?)hSPw)XgH2)iXWV3xtxq$l=zeVdS7H?bp#Nr)`b&Gc`-m|!A
+Y@iU7}iw`Y+L0srhMA|p_7T;s;ZxKqajsO4v
+
+diff --git a/target/test-classes/DAO/BankTransactionsCRUD.class b/target/test-classes/DAO/BankTransactionsCRUD.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..431dcc4f68c8aa8d2eeb35f5c68d3cc6bc659ba1
+GIT binary patch
+literal 939
+zc$}4z-A~j&6vfZ%mMxUk#VQE+wSdNz2m0jG8WLpjfmAl(EAer*oxs5Ew3$wg{#ibe
+zXrk}_QN}w%<0iO3=)=sN+tc4UchcW~zW)U97Ow)-Q1{_AF@*-h+!_DOqajx(QGakI
+z62s7VCzUjt4E4^NV;|EDug9VzRg`(2X(Q5pE;KhXQ#)T0k=tS#0YkW#nf5<X`>QY;
+z0em#A;XQ`=PCTX^7%kOF*V?og7JFO$=sj2GhnlN`Cl*<3?;rITyzML%46Rryu~&`;
+zLLc(MkUC+UC46|ywY2A|>6uemFf7N{0lPG1q6If3-l_r_ITDeh^{C(NO^6wPq!h!e
+zM1py#L(NYlkry9jrJ}24G|Fr$ibP9yVK)DNHiV;SDdq3%UT;~Gq+q)QFY`<H1_^~N
+zf`hEoiTEJxT`WzSf5Vz$1^4M^u+J2j{T*nXqf<mXv)%Ozuy0h<@PO8aYx)RjZC(oS
+z5RYi5$+1v<ypKBdf#3)HPvOi3W`A8F%s9e2Jgce*wt9?3_ddW9mR+y_Pw<p<4A1bq
+m;%^eaej~r>_zM+b%zuHl8*Jqctkx~8)jP1lTUcvO|MD-$lCj?a
+
+diff --git a/target/test-classes/Interfaces/BankStatementParser.class b/target/test-classes/Interfaces/BankStatementParser.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..789f74d5383b9df20ba4a3d44948800c2c5d9396
+GIT binary patch
+literal 363
+zc${^RK}!Qc429oR?b@oKH%~oyQUv$psig;nLSdza5$|!0%hYXFX0rY`5B>mulsK~p
+zLaRB2m%K0GeSW=v0Jz3chMvJ_F3SFyN)GuA$%|D|UbE<ud|;np*Wh?XZ<N<0Rlay!
+zaj6D_*EF8_W^HhJUi>at^-iksMRC_Waor*BJxQQaT_a<Ilg?Q<;gIaN_QBxnhtR64
+z^TGv<{tY3Xw5}4;*0aH4(=ge7VY&sG{PWZ_(ucNbeaSOdNBrp@Nn9mX-@sr8sd_P(
+VJ@k<R%CH~xK~gb{-9gtKegivVYAyf(
+
+diff --git a/target/test-classes/Interfaces/BankTransactionFilter.class b/target/test-classes/Interfaces/BankTransactionFilter.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..7d6c44386f157ab6685aace1255b4fa340624b5f
+GIT binary patch
+literal 252
+zc${rcyKcfj5S-;<6Vjv&O(>zkRVu2aK#F7(2_g!*wOOKbE^Enm=Hn>%06q$Fc9BSk
+zEp}Ggd7UrE6M$Dd#^?~nAL^yrb1p7<XZ`uASRLoyl)5lBykhhSPX!-1v8><8XI4n=
+z2|X_^z-W>#%bnO;@qD@^4A*5{<r0h}Fz?#W8fU`us#b4)Wn-Mlth}j~o*R}Uyrlo>
+hi&|ST+rQrPh(PF~846wdh{DxD-0lG$0!D!`1g=M8Ms5HA
+
+diff --git a/target/test-classes/Interfaces/BankTransactionSummarizer.class b/target/test-classes/Interfaces/BankTransactionSummarizer.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..09acba1c0764f052296b90dee472e5028a2daa9b
+GIT binary patch
+literal 266
+zc$_=+Z`VEs1_o0GZgvJHMg|qnypq(Sw8Z4pVtuE?yzG#o#Ju9f<dV$%yx`K@+{B{H
+zs?;KO1{OvJfvm)`ME#t^ymWp4q^#8B5=I8jVwe&}25Ai!AK(0x)EsnUtTkO28MuP;
+zON)|I-7<54O671`qzAHtkwG%3G_NExH#ID?I5R0H)iEzGza$Z)vY3%U-Us0hx6(YY
+q0f{+qUs$s-GB7eQGk^di(ABIAY(N$h13Q@HVBiGOY(N!U3=9CvkW5(s
+
+diff --git a/target/test-classes/Interfaces/Exporter.class b/target/test-classes/Interfaces/Exporter.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..a7fd7f8639bbb1a27cb0bdc42822002b4c11fdb1
+GIT binary patch
+literal 175
+zc$_=+Z`VEs1_o0GPId++Mh0Qeypq(Sw8Z4pVtv<&g8U*NkDY;qkwG9Uu`E$PCowNw
+z-#;lUHMxY5fg=^FfRRC0!^by2B{fGsxHLC6v8Xb*B(Ws3xFj>V*jm#Ep)<IoC^IkJ
+xnvsDkIKQ+gIn^yQCzX+b7iN(jNF^I110w@70|+nz?PX<P1F;y`fg}?H2LNC=F8=@k
+
+diff --git a/target/test-classes/Model/BankTransaction.class b/target/test-classes/Model/BankTransaction.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..14ed91c6b85f5103775a300ca656954250634cdc
+GIT binary patch
+literal 2085
+zc$|$?U2hvz5Ixsl>o{wtcH^W08Ujh{^*XIfq0r){AF&Ay*bU&2lJx1uUgE9SyJo$P
+zR3ZKc@D4~Q5>z4(RRZzE1HTC&=3Z}I$6gS!)^~R9%$b=pGyCV?Pk#e&4G$9tA*>*x
+zB8nKpnMeGP7cFid6u0&t84ZsicGI*??-oN?%kNAfjwuBR71K}|vNfk^SjBa2x3^tx
+z_jtoI9h)K2<eov-RSD;r9iv!v8r-Uox+E}CDrRtoz<I~%+Z2UWggT?*EM^&|n?|qU
+zn%x0frusaqy62kqK`DVb%quvjVgWClN_$|ypd50mZ)|<aa8av{S5?YSLS~4NmsFg`
+zBEx)#w~ex6H@Nq}^jakKJZ^hEh8x<XXJt|qfG?O{Qt=92Wr!abUfJS30z9jY+Davv
+zuHb@#iz;%^PE}WN`ui3!t2CTWm%AiIwMr$wnShRhf>jllaG4=3J^G$$`2|y;nDJSk
+zTO{NH_y}NVPh@dL5d0c-Qmc%nIY^@<qQ0);4P2v^w|K9`FsD5Xz}jReXo15J#N7^|
+zm1(dTW~!!b-0yex4R@Q%!ZXr!hr6bD_mvT^Wl~}D)xdEqF{Fs^%IHYVY5^T$m?FEo
+z{zTHaSBPlgDTjIfnafxO)J@NMHg(ycS=*!Wc21A6e<f4r6f9Zyc%xn8UB9BZU~|9$
+z<w5i%>Q3Kn7#pUzogJ(2vH+$zS$7<-=efLFGrX45?8R}PVfk~hjB9LlX|QWT8d<Nk
+z9Ls$%6T=4ye29+})Wr&HGpsyM*0c|uw&Alh*oqAb?6{8^z8o#sHylL2$L*$N^j4~l
+z)9!amlXU-^<M!jO5nvuPSCbHBZdr9xwng2vZNrrtW%Lw0V7TzVQdO|au=wAmv`zzK
+z+UGbeHV{Ted=p8^h)<h5>03sp0@_l%N&j!rTZb&8bY}Hm!1Tf~6kR(;QeTK1BmIOf
+zLby)<bJA!U5rUjT5-Ix467UVu>ZBzAyp0kdB@viONrVnbNd%9O_9oW+&_z0hRaE~8
+z=^uxoVp5rw&;yvL56y53w};N5p>y(wG3RWc^Bvp`h^&l9UI=tvAEtd<mLV7;=M#A(
+zMFmgsA}|iNI0BX(f?Yz{2m7AD!gSX3!ncS<jtYMurT>hV3-o-0X!xk`JK{AFVwIi~
+zEPst<5qDL_&VMDtr|B&%-;~IAh=h-1|F6rQi`L|*=Nir-PphQMgq8+Dhb^n2f_EsT
+z^SFWy(uMFYX_JU5DfSnxDu~|^jNQYgpZ9x2ji_lU_A5fWVUbdOH=@fNi}hXE()tOm
+m9*yx)9N}Zh4<9BpVf8+$bjIm!i=G-jrndx1JNN{9SojB>=g$-X
+
+diff --git a/target/test-classes/Model/SummaryStatistics.class b/target/test-classes/Model/SummaryStatistics.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..3cf1e7b4a2ea438fa9b81a30b32584389419ddf9
+GIT binary patch
+literal 774
+zc${@mO;5r=5PeH2m0ASLH~8&A=|L`f(wG>DC(r|i`+^OwX-iTH!K1&(m`F@K_yhb=
+z#@SLmVC|+m^LFRWd$XTk?;ik8u&*NlMMKhniWEccflqnU;oh)$(|@oB0YmCccp^Aw
+zP!1ctG**z-pc`0)!BFmu?rf*oowzRdAG-k$#5fRxF%^#|E(2>x!kU4stX5n;lX%^L
+zxxm7cxL}|tvBsyi&xbZ;hb{UVJ%;2ZDKKQ)!n3a@Zr}EAdEcQEvppJcr^kIEademr
+z?gfcg+yD4FrE!LK(3Re3oYn$%_$*3<$DmVk@nb~qjwb%Vz7n!~=}*5S`CQng84~oI
+zNg9iug)&nP97Z#W#W1R1^p|Ka6MBMzG{w6024)@1p;?VNGFC;MBWG2#Ir1-boj`^5
+z8d9{ckVu-Ajx~}hP}3SRsM5_bHKtaC>p+-ED=f^U870i5okg8Aq|yBbHX}PtQj+zm
+y^$P9zS2z_OW<!xhLp2g%*oq}*mdR!;c{`SzTP7D{$vd&+{4%)`OWqBu_Pzm#$!H+}
+
+diff --git a/target/test-classes/Parsers/BankStatementCSVParser.class b/target/test-classes/Parsers/BankStatementCSVParser.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..350ee29c56bf8b2cbaee8ade02824d96a50b527a
+GIT binary patch
+literal 2060
+zc$}40?N%E_7=9*M*ksv~5DG%62n9<Lk_NG8+eDNSP&5hH#8jwSC&>caCcC)Vc;o`S
+z2(Q4utv#oJJ$m}PH{pGFjvwy~2{a#S&7SPeyr0keHS^-npMM3ggk23DcvUDm`q0l1
+ze89iui7L1D5}Tz5M%iWPPnnkKE;D$;k)jVi1{TwxVL*kh;{pcTwDPWFT6+wA^@FNO
+z+H>JdCo>tj*G=;yh#?gr9mBZDFuBE@y5ZClx4HE&?{e3u8J4@6FP_pF^z=$$?f%wE
+zp|Ex*$1r<p(KTyEV%K(R+)boOsX+U6xpfUEsbLhasTk8Sj!O)~=PDVy%&S6yfFB4C
+z4EdLVukLdvZ+z1*tg?}O6<3i=590*jGG13PspAbywWTd>H%e9VIv~Bbb|bx#msW9w
+zSXsMbRAqV!4!7#O?3%WvVH&fdly5T3hkIg3_b^#hG1tmR!!@gk702O+8ME$cxC-w8
+zqL^0^(-FrthQV_=A;RD@DP->2RF=_jGjhq^Xws7dSioB<7InOh>kOf85e9Xi*K@{q
+zu57d&q4AE6cX5M3u_XCo%l1p{NhuBDmX0J+41Srsb;quqN8c7_rf1TUBEDrE@8bjV
+z%`26T#5X-fc6_+apj9gIY&L#KKMiTDsaV(XAwFWb^51<y813CHxwIH=^u+iI-KFAV
+z8j%f)*1NoHbWBNWM3hyEmLZTaEhE>cl?<oAWm|=0Hx#*JihYx)xcg?EVJh?Qlb0mP
+zDj5`3y1-Kr%XYO<v&hhJk0B@BiX5_$o~=n|4X@b^i)zi%3`4S<0)1W7lps)!!<qK(
+zOGY{gG{OQPK?ruUf~EG_lhkN?HVzM38JX=+Pjv^hOeQ-4r2e7HgzN=MX!&85A2eO~
+z^X8t#-G)Q!&Cbwz`ujiLe5rD^d3I}gyWy0LbyIkq=v~@t!ZIBoLAnwcHt2sz9L97{
+zD72>Qf!?3cE<s;L-@fP(*kf9FkfC?KBn}`;Z~asNIc(CGiScYIe-D);fw}pR`V{_b
+z%)9s#0>>E1#gxTkOx#qSVR}10ro{Rdk1+G-%zTJY00B~`i-MkU!X{i@CpToS=}N4&
+z@F_V{F@-zGllBlD`vrUkFX;@Th`TbL&#_HB0qGaw2pdb!aCQ3#;q3egA`H3s2@(uH
+zV3HO~49}t6Qex3@<tc8S;5`rS{`l8#u}3mJ0^q1LG6o;HnW5AzV1iD&%MxUiWM=5D
+z6wnlT@wVVDVF&jJj*rgPFKFe#m(rG}$@}Vzcb{lq6Lk=tKM+t6Rk83pS>-ZCC6X$i
+cm1tV#AMl4(j<Na#fyc58=VcNFsz^oSZ^{S-*8l(j
+
+diff --git a/target/test-classes/Parsers/BankTransactionsParser.class b/target/test-classes/Parsers/BankTransactionsParser.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..def2b167609d32a7aa4d5d01aa219235126ff144
+GIT binary patch
+literal 307
+zc$|Gt!A`<Z5S*o@)r!(^H6eIY5BB6q!T}RcjgUaNZ|jRbsISR;h5zD2!od&Vqm0|a
+zk+_@8?o4JknZxh?2f#Dp2rYOa{0`a(2=S6PoD^(6lS#Hzc|{0@+UROT@a`WLAub60
+zDO;zkOU7(gbIZnYUg^@fqfYQ&%MV59rrN0Y^>?Q1oU=ldURvf{EZFLrpG3d<(vC1l
+z|9|^Jh-T&5=ITw?XSe5VPjv#^A(UWsk+eh;ycCu+9B4o8KwDW_hy;U1^l&BEIT~bM
+KH|IBvtNRDdYDUWd
+
+diff --git a/target/test-classes/View/BankTransactionAnalyser.class b/target/test-classes/View/BankTransactionAnalyser.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..2cac3935b236f9957dc8a6517ecd3180af4530df
+GIT binary patch
+literal 3456
+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
+YsK$@g_^BE{$9E*_r`h-T5kDjFA3tQym;e9(
+
+diff --git a/target/test-classes/Main.class b/target/test-classes/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..fd36ecee0e9fb51250e429ca607c07c6e87dd899
+GIT binary patch
+literal 925
+zc$|e&+iuf95ItMFb>gH=NJ>LWD1}l;N)x}p3qeQ_6;b4-NU1C#p4RR*Z1E+s-BSL6
+zpW%f{MB)SZD8#H2sGtFCc}F{Q=FIWg{r3IKR{#&uF);_tfL_Er78uIM{FGZh4~N#i
+zdn~+^Vd1e1W%`6cYqp#matzBZ58t&9dCJ>~3`V}_c*&^&lcCm&!ZeP2U&PjnH1K!M
+zMp2xK*hF4US!8H9QoOgG5y3&s!-RXOjKZfO_dg^GR#dPu!`dqzQzFTbgOsNt5MkOI
+zIFr1I5;TRb7O{-03^_ifV0hWIFMeW>#xfjs?cI=69C1(l!8oD&t^QMUx8)e9G3a|-
+zh7@|yp<pQ4G8Fxjz!mWUcYVrK?8xK3!(*xT)1;ohl?i!gtL854gN$UQ`R1~?mP2(O
+z4+&qLQKp|elD_EkAR9KTE~b(h>h@nwfM7Luw(I1!{jXD@)~b8iG=}y6*~(z<oOxoT
+z*b)Qxi71mVBWrj6SA|f6=p^>UbE&M$E6X|xhg(>o>#3eOFm*v`y+%8WBBMCJbq@9^
+zE7xgV$dWm%(psDVa2*YbdECGnp;Yrn=#&TURt$TL{OfZR_QohuT<VWeqIl(z-mVyR
+zefu*i7woIVuXr^qqJSk-=?*qf#wIG+#0L{r+{8LX4I3o?HmN9(h7H^ymMXoQgwUwZ
+U#62`gNsF*Lp|<GT&StfL0K@Fxng9R*
+
+diff --git a/target/AnaliseDeExtratosBancarios-1.0-SNAPSHOT.jar b/target/AnaliseDeExtratosBancarios-1.0-SNAPSHOT.jar
+new file mode 100644
+index 0000000000000000000000000000000000000000..d6d22a0ee0be2ff1306e46fefeffcb7fc7adc6c3
+GIT binary patch
+literal 2122
+zc$^FHW@h1HVBlb2_|mv8f&mF|0<o`ah@-BjpPPOFP?-o&83$Nd(>IwNfk0^x7C~0#
+z>*(j{<{BKL=j-;__snS@Z(Y5MyxzK6=gyqp9At3C_`%a6JuhD!Pv48BtF{Dv@YV4?
+z8~mY&Cy3*OrtkSP!3Nii*;W>6ojv1u@vGO#YrJ|MzT1Kfj2=CG^puGq0H;g&k)4p6
+zSeBZnk6W=grsDLX{L%u?6g--YaBFhROU%hEPIXCjttcr<EXgl+O3X`6EXvF;MhY~8
+z;N=lp?((lp2AZ=F8fZz0dD*%ti6x1;#hJMUIjMTd#bv%{qPZFrL|Pt}UteTUwM%C~
+zSU|4BBO8us0fIYzzj^oiJHK<lg;NgKgEAeqy}5hNo1<w{kQ3jYK1Y?tog1BIeZO{F
+zwJSw`_T=3HYwydfuM9jowc;Mji(spdmiqs79nJEdos>g3YHja|h&@7vEKh-sQDtOc
+z0D7GvD7COOvp5sz4Ou@!zas_$Z~S-JpW*iV&~!p2Y{Qcy$6n9LI6HS@kjllIe2ZK|
+zY?`?~GQ>UTf4JnP?AbHt)_h@n%_5%n`p32huO|Mfjw*<@)jK`s)BBJTcFSW=$}D$S
+z?)o$Nf6bBZ+4?`Nd-Ucde7BZgtgqZ^y7pi!x8cK5&dJ(QzRxdzEU>ZR^>I3=6<u~%
+zvHg|-Q~R@JHyzp+CQoS6xn1%vhj(+=hXcQ?>LnJgI2C`Pt3@=O)pWsg-P;9Qmvb{c
+z^=Fmxy7gCfi(swpmt*F0Ow`?uMr3{S&q}LY-IMTO(&F1Oy0=%m{y)(gc-0;e7^i?S
+zZn=u#Rv$1R)L0l8EXj)Tg8W>)irk#m;Mn{o1Cd(ukM;uh7QXnlVP@20qv^UAGZ#gF
+zyEU~dc7bZHVBNo2K{5}HS18V@K9~F6Qru$orYqJ#D`z|it`~9J=WZ!z`1s_N|2Ous
+z@c-lCWjC1qs9or-q*ZwE{{^LXj0%U{PdU#?E?Tf~0_Tl2;ScP3d}cp9kS(`*W=PlE
+zlGMnyr*lJl7H6>R3p>3wbK=8>!lj1lTNa1sEXt|W<hb^2+5fl$yN|61iD_<p+WPFa
+z``1hZVMAa0Z1V}a&KC~0F(3C?qVZ|F#7=V--UqKDvbG&}kxn^RcuJ&pS+|$>n${{K
+z=A@G?O$%I$ou;!I1+v`!{xj|Ou6vFJZ|3KJI<ZnPxb@$hrmq`ZQY^h!@=VoGS(std
+z_MqtLu8`!J0kxj5v~*YA?)|VkA@fa?{v9F3-Od7cp6r-;;AX&uOV;U2U6aa|ux@=I
+zcZ>6s%l#Zj+X=6)_^(sWI~u&+=dn}3YJHX)7ljXg*U?-OdyAXJyC~AesbHE{`|}?2
+zJ)1fFWC~upBp2LY#%3kSCw2U+{r#4<I!4s8%Y5_mt)9Th^#fuDvLm^mD8C@Js3bGB
+z*jq>Iq>s0c-bbH}rDwd)oYe6v^(<Yhq3NY_QoqdWjJKc8sWbY|o_gt@(${5J)p%)7
+zOzKM4qceY2ZfmPz+jX$6kMW?~KgB&U!19feNrV}9SquRJ3~wD7P)lZzHr!=13@m9>
+z$5B$_vzQ;n;#JrRTHKn&Q8Zu2SMcIC#0bR@9!ByCVni5WD~b_e6vK$UU`93pTe*oa
+y;Ugn*DT=HQTM>iM_m7E!0tY=2peJ&KHIG>+Px1lYtZa}}$;q$^=<F_55Dx&+$JOru
+
